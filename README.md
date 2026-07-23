@@ -17,6 +17,13 @@ O objetivo deste projeto é demonstrar a aplicação prática de técnicas de an
 
 ```text
 ├── testes-manuais/
-│   ├── BUG-001-filtro-ordem-alfabetica.md
-│   └── Casos_de_Teste_SauceDemo.md
+│   └── BUG-001-filtro-ordem-alfabetica.md
 └── README.md
+
+🐛 Principais Bugs Identificados
+[BUG-001] Filtro de ordenação alfabética (A-Z e Z-A) não respeita a ordem dos produtos: Ao selecionar os critérios de ordenação por nome, a listagem de produtos permanece de forma aleatória no navegador Microsoft Edge. (Ver detalhamento do Bug)
+
+👤 Autor
+Dr. Leandro Bagatta
+
+GitHub
