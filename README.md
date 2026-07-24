@@ -1,8 +1,8 @@
-# 🧪 Projeto de Garantia de Qualidade (QA) - SauceDemo
+# 🧪 Portfólio de Garantia de Qualidade (QA) - Testes Manuais & Bug Reports
 
-Este repositório contém a documentação completa dos testes manuais e exploratory realizados na aplicação e-commerce **[SauceDemo (Swag Labs)](https://www.saucedemo.com/)**.
+Este repositório reúne a documentação de testes manuais, testes exploratórios e relatórios de bugs identificados em diversas aplicações web e plataformas de e-commerce.
 
-O objetivo deste projeto é demonstrar a aplicação prática de técnicas de análise de requisitos, criação de casos de teste, identificação de falhas de usabilidade/cross-browser e documentação profissional de bugs.
+O objetivo é demonstrar a aplicação prática de análise de requisitos, mapeamento de cenários, testes cross-browser e reportes técnicos detalhados de falhas de software.
 
 ---
 
@@ -17,16 +17,9 @@ O objetivo deste projeto é demonstrar a aplicação prática de técnicas de an
 
 ```text
 ├── testes-manuais/
-│   └── BUG-001-filtro-ordem-alfabetica.md
+│   ├── bug-001-filtro-ordem-alfabetica.md
+│   └── bug-002-falha-adicionar-produtos-carrinho.md
 └── README.md
-
-🐛 Principais Bugs Identificados
-[BUG-001] Filtro de ordenação alfabética (A-Z e Z-A) não respeita a ordem dos produtos: Ao selecionar os critérios de ordenação por nome, a listagem de produtos permanece de forma aleatória no navegador Microsoft Edge. (Ver detalhamento do Bug)
-
-👤 Autor
-Dr. Leandro Bagatta
-
-GitHub
 
 ## 🐛 Principais Bugs Identificados
 
