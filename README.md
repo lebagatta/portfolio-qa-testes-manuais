@@ -27,3 +27,8 @@ O objetivo deste projeto é demonstrar a aplicação prática de técnicas de an
 Dr. Leandro Bagatta
 
 GitHub
+
+## 🐛 Principais Bugs Identificados
+
+* **[BUG-001] Filtro de ordenação alfabética (A-Z e Z-A) não respeita a ordem dos produtos:** [(Ver detalhamento do Bug)](./testes-manuais/BUG-001-filtro-ordem-alfabetica.md)
+* **[BUG-002] Botão "Add to cart" inoperante em produtos específicos da vitrine:** Ao tentar adicionar todos os itens ao carrinho, 3 produtos do catálogo não reagem ao clique no navegador Microsoft Edge. [(Ver detalhamento do Bug)](./testes-manuais/BUG-002-falha-adicionar-produtos-carrinho.md)
