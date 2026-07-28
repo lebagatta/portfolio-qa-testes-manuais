@@ -20,7 +20,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 ├── testes-manuais/
 │   ├── bug-001-filtro-ordem-alfabetica.md
 │   ├── bug-002-falha-adicionar-produtos-carrinho.md
-│   └── bug-003-falha-nos-filtros-de-ordenacao.md
+│   ├── bug-003-falha-nos-filtros-de-ordenacao.md
+│   └── bug-004-botao-remove-inoperante-na-vitrine.md
 └── README.md
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
@@ -29,6 +30,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 [BUG-002] Botão "Add to cart" inoperante em produtos específicos da vitrine: Ao tentar adicionar todos os itens ao carrinho com o perfil de teste, 3 produtos do catálogo não reagem ao clique do usuário. (Ver detalhamento do Bug)
 
 [BUG-003] Inoperância total dos filtros de ordenação de produtos (Nome e Preço): No perfil problem_user, o seletor de ordenação não altera a disposição da vitrine ao escolher filtros por ordem alfabética ou por faixa de preço. (Ver detalhamento do Bug)
+
+[BUG-004] Botão "Remove" inoperante na página de vitrine após adicionar produto: No perfil problem_user, o botão "Remove" na vitrine de produtos não responde ao clique para desfaçar a adição, obrigando a navegação até a tela de carrinho para excluir o item. (Ver detalhamento do Bug)
 
 👤 Autor
 Dr. Leandro Bagatta
