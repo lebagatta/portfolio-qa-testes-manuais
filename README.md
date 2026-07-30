@@ -21,7 +21,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-001-filtro-ordem-alfabetica.md
 │   ├── bug-002-falha-adicionar-produtos-carrinho.md
 │   ├── bug-003-falha-nos-filtros-de-ordenacao.md
-│   └── bug-004-botao-remove-inoperante-na-vitrine.md
+│   ├── bug-004-botao-remove-inoperante-na-vitrine.md
+│   └── bug-005-lentidao-e-latencia-no-carregamento.md
 └── README.md
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
@@ -32,6 +33,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 [BUG-003] Inoperância total dos filtros de ordenação de produtos (Nome e Preço): No perfil problem_user, o seletor de ordenação não altera a disposição da vitrine ao escolher filtros por ordem alfabética ou por faixa de preço. (Ver detalhamento do Bug)
 
 [BUG-004] Botão "Remove" inoperante na página de vitrine após adicionar produto: No perfil problem_user, o botão "Remove" na vitrine de produtos não responde ao clique para desfaçar a adição, obrigando a navegação até a tela de carrinho para excluir o item. (Ver detalhamento do Bug)
+
+* **[BUG-005] Alta latência e gargalo de desempenho no carregamento e navegação:** No perfil `performance_glitch_user`, a aplicação apresenta atrasos severos no tempo de resposta durante o login e carregamento da vitrine, comprometendo a fluidez e a usabilidade. [(Ver detalhamento do Bug)](./testes-manuais/bug-005-lentidao-e-latencia-no-carregamento.md)
 
 👤 Autor
 Dr. Leandro Bagatta
