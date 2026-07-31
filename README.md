@@ -23,6 +23,7 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-003-falha-nos-filtros-de-ordenacao.md
 │   ├── bug-004-botao-remove-inoperante-na-vitrine.md
 │   └── bug-005-lentidao-e-latencia-no-carregamento.md
+|   └── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
 └── README.md
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
@@ -35,6 +36,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 [BUG-004] Botão "Remove" inoperante na página de vitrine após adicionar produto: No perfil problem_user, o botão "Remove" na vitrine de produtos não responde ao clique para desfaçar a adição, obrigando a navegação até a tela de carrinho para excluir o item. (Ver detalhamento do Bug)
 
 * **[BUG-005] Alta latência e gargalo de desempenho no carregamento e navegação:** No perfil `performance_glitch_user`, a aplicação apresenta atrasos severos no tempo de resposta durante o login e carregamento da vitrine, comprometendo a fluidez e a usabilidade. [(Ver detalhamento do Bug)](./testes-manuais/bug-005-lentidao-e-latencia-no-carregamento.md)
+
+* **[BUG-006] Inoperância dos botões de Adição e Remoção de produtos na vitrine:** No perfil `error_user`, determinados produtos não permitem a adição ao carrinho e o botão "Remove" fica inoperante na vitrine, exigindo exclusão manual na tela do carrinho. [(Ver detalhamento do Bug)](./testes-manuais/bug-006-falha-adicao-e-remocao-vitrine-error-user.md)
 
 👤 Autor
 Dr. Leandro Bagatta
