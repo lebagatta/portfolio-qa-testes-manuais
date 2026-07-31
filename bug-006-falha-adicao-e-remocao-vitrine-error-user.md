@@ -40,5 +40,3 @@ Na vitrine de produtos (`/inventory.html`), ocorrem múltiplos comportamentos an
 
 ---
 
-## 📷 Evidências e Anexos
-> `![Evidência do Bug 006](./imagens/evidencia-bug-006.png)`
