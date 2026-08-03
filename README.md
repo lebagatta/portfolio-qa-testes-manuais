@@ -24,6 +24,7 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-004-botao-remove-inoperante-na-vitrine.md
 │   └── bug-005-lentidao-e-latencia-no-carregamento.md
 |   └── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
+    └── bug-007-bloqueio-finalizacao-compra-checkout.md 
 └── README.md
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
@@ -38,6 +39,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-005] Alta latência e gargalo de desempenho no carregamento e navegação:** No perfil `performance_glitch_user`, a aplicação apresenta atrasos severos no tempo de resposta durante o login e carregamento da vitrine, comprometendo a fluidez e a usabilidade. [(Ver detalhamento do Bug)](./testes-manuais/bug-005-lentidao-e-latencia-no-carregamento.md)
 
 * **[BUG-006] Inoperância dos botões de Adição e Remoção de produtos na vitrine:** No perfil `error_user`, determinados produtos não permitem a adição ao carrinho e o botão "Remove" fica inoperante na vitrine, exigindo exclusão manual na tela do carrinho. [(Ver detalhamento do Bug)](./testes-manuais/bug-006-falha-adicao-e-remocao-vitrine-error-user.md)
+
+* **[BUG-007] Impossibilidade de finalizar a compra (Botão "Finish" inoperante no Checkout):** No perfil `error_user`, a aplicação trava na etapa de resumo do pedido (`Overview`), pois o botão "Finish" não responde aos cliques, impedindo a conclusão do pedido. [(Ver detalhamento do Bug)](./testes-manuais/bug-007-bloqueio-finalizacao-compra-checkout.md)
 
 👤 Autor
 Dr. Leandro Bagatta
