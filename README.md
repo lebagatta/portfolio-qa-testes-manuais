@@ -16,15 +16,15 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 
 ## 📂 Estrutura do Repositório
 
-```text
-├── testes-manuais/
+```text├── testes-manuais/
 │   ├── bug-001-filtro-ordem-alfabetica.md
 │   ├── bug-002-falha-adicionar-produtos-carrinho.md
 │   ├── bug-003-falha-nos-filtros-de-ordenacao.md
 │   ├── bug-004-botao-remove-inoperante-na-vitrine.md
-│   └── bug-005-lentidao-e-latencia-no-carregamento.md
-|   └── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
-    └── bug-007-bloqueio-finalizacao-compra-checkout.md 
+│   ├── bug-005-lentidao-e-latencia-no-carregamento.md
+│   ├── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
+│   ├── bug-007-bloqueio-finalizacao-compra-checkout.md
+│   └── bug-008-excecao-alerta-falha-filtro-ordenacao.md
 └── README.md
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
@@ -41,6 +41,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-006] Inoperância dos botões de Adição e Remoção de produtos na vitrine:** No perfil `error_user`, determinados produtos não permitem a adição ao carrinho e o botão "Remove" fica inoperante na vitrine, exigindo exclusão manual na tela do carrinho. [(Ver detalhamento do Bug)](./testes-manuais/bug-006-falha-adicao-e-remocao-vitrine-error-user.md)
 
 * **[BUG-007] Impossibilidade de finalizar a compra (Botão "Finish" inoperante no Checkout):** No perfil `error_user`, a aplicação trava na etapa de resumo do pedido (`Overview`), pois o botão "Finish" não responde aos cliques, impedindo a conclusão do pedido. [(Ver detalhamento do Bug)](./testes-manuais/bug-007-bloqueio-finalizacao-compra-checkout.md)
+
+* **[BUG-008] Exceção de sistema e mensagem de erro ao acionar filtro de ordenação:** No perfil `error_user`, ao selecionar qualquer opção no filtro de ordenação da vitrine, a aplicação dispara o alerta `"Sorting is broken! This error has been reported to Backtrace."` e impede a reordenação dos produtos. [(Ver detalhamento do Bug)](./testes-manuais/bug-008-excecao-alerta-falha-filtro-ordenacao.md)
 
 👤 Autor
 Dr. Leandro Bagatta
