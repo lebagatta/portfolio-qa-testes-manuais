@@ -16,7 +16,7 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 
 ## 📂 Estrutura do Repositório
 
-```text├── testes-manuais/
+├── testes-manuais/
 │   ├── bug-001-filtro-ordem-alfabetica.md
 │   ├── bug-002-falha-adicionar-produtos-carrinho.md
 │   ├── bug-003-falha-nos-filtros-de-ordenacao.md
@@ -24,8 +24,10 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-005-lentidao-e-latencia-no-carregamento.md
 │   ├── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
 │   ├── bug-007-bloqueio-finalizacao-compra-checkout.md
-│   └── bug-008-excecao-alerta-falha-filtro-ordenacao.md
+│   ├── bug-008-excecao-alerta-falha-filtro-ordenacao.md
+│   └── bug-009-desalinhamento-elementos-cabecalho-visual-user.md
 └── README.md
+
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
 [BUG-001] Filtro de ordenação alfabética (A-Z e Z-A) não respeita a ordem dos produtos: Ao selecionar os critérios de ordenação por nome, a listagem de produtos permanece de forma aleatória no navegador Microsoft Edge. (Ver detalhamento do Bug)
@@ -44,6 +46,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 
 * **[BUG-008] Exceção de sistema e mensagem de erro ao acionar filtro de ordenação:** No perfil `error_user`, ao selecionar qualquer opção no filtro de ordenação da vitrine, a aplicação dispara o alerta `"Sorting is broken! This error has been reported to Backtrace."` e impede a reordenação dos produtos. [(Ver detalhamento do Bug)](./testes-manuais/bug-008-excecao-alerta-falha-filtro-ordenacao.md)
 
+* **[BUG-009] Desalinhamento e quebra de layout nos botões do cabeçalho:** No perfil `visual_user`, os ícones do menu lateral e do carrinho de compras perdem o alinhamento das margens e são renderizados deslocados em direção ao centro da tela, prejudicando a interface visual. [(Ver detalhamento do Bug)](./testes-manuais/bug-009-desalinhamento-elementos-cabecalho-visual-user.md)
+  
 👤 Autor
 Dr. Leandro Bagatta
 
