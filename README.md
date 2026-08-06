@@ -25,7 +25,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-006-falha-adicao-e-remocao-vitrine-error-user.md
 │   ├── bug-007-bloqueio-finalizacao-compra-checkout.md
 │   ├── bug-008-excecao-alerta-falha-filtro-ordenacao.md
-│   └── bug-009-desalinhamento-elementos-cabecalho-visual-user.md
+│   ├── bug-009-desalinhamento-elementos-cabecalho-visual-user.md
+│   └── bug-010-bloqueio-de-acesso-usuario-locked-out.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -47,6 +48,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-008] Exceção de sistema e mensagem de erro ao acionar filtro de ordenação:** No perfil `error_user`, ao selecionar qualquer opção no filtro de ordenação da vitrine, a aplicação dispara o alerta `"Sorting is broken! This error has been reported to Backtrace."` e impede a reordenação dos produtos. [(Ver detalhamento do Bug)](./testes-manuais/bug-008-excecao-alerta-falha-filtro-ordenacao.md)
 
 * **[BUG-009] Desalinhamento e quebra de layout nos botões do cabeçalho:** No perfil `visual_user`, os ícones do menu lateral e do carrinho de compras perdem o alinhamento das margens e são renderizados deslocados em direção ao centro da tela, prejudicando a interface visual. [(Ver detalhamento do Bug)](./testes-manuais/bug-009-desalinhamento-elementos-cabecalho-visual-user.md)
+
+* * **[BUG-010] Falha de autenticação e bloqueio de acesso no login (locked_out_user):** Ao tentar autenticar com a conta `locked_out_user`, a aplicação impede o acesso, exibindo alerta de conta bloqueada e retendo o usuário na tela de login. [(Ver detalhamento do Bug)](./testes-manuais/bug-010-bloqueio-de-acesso-usuario-locked-out.md)
   
 👤 Autor
 Dr. Leandro Bagatta
