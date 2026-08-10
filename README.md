@@ -27,8 +27,10 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-008-excecao-alerta-falha-filtro-ordenacao.md
 │   ├── bug-009-desalinhamento-elementos-cabecalho-visual-user.md
 │   ├── bug-010-bloqueio-de-acesso-usuario-locked-out.md
-│   └── bug-011-imagens-duplicadas-vitrine-problem-user.md
+│   ├── bug-011-imagens-duplicadas-vitrine-problem-user.md
+│   └── bug-012-sobrescrita-campo-sobrenome-checkout.md
 └── README.md
+
 🐛 Relatórios de Bugs Registrados
 🛍️ Aplicação: SauceDemo (Swag Labs)
 [BUG-001] Filtro de ordenação alfabética (A-Z e Z-A) não respeita a ordem dos produtos: Ao selecionar os critérios de ordenação por nome, a listagem de produtos permanece de forma aleatória no navegador Microsoft Edge. (Ver detalhamento do Bug)
@@ -52,6 +54,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * * **[BUG-010] Falha de autenticação e bloqueio de acesso no login (locked_out_user):** Ao tentar autenticar com a conta `locked_out_user`, a aplicação impede o acesso, exibindo alerta de conta bloqueada e retendo o usuário na tela de login. [(Ver detalhamento do Bug)](./testes-manuais/bug-010-bloqueio-de-acesso-usuario-locked-out.md)
 
 * **[BUG-011] Renderização incorreta e duplicada das imagens de produtos na vitrine:** No perfil `problem_user`, todas as capas de produtos na vitrine carregam a mesma foto padrão de erro, omitindo as imagens reais do catálogo. [(Ver detalhamento do Bug)](./testes-manuais/bug-011-imagens-duplicadas-vitrine-problem-user.md)    
+
+* **[BUG-012] Apagamento automático e falha na retenção de texto no campo "Last Name" do Checkout:** No perfil `problem_user`, o campo de sobrenome apaga automaticamente qualquer caractere digitado pelo usuário, impedindo o avanço do checkout devido à validação de campo obrigatório. [(Ver detalhamento do Bug)](./testes-manuais/bug-012-sobrescrita-campo-sobrenome-checkout.md)
   
 👤 Autor
 Dr. Leandro Bagatta
