@@ -28,7 +28,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-009-desalinhamento-elementos-cabecalho-visual-user.md
 │   ├── bug-010-bloqueio-de-acesso-usuario-locked-out.md
 │   ├── bug-011-imagens-duplicadas-vitrine-problem-user.md
-│   └── bug-012-sobrescrita-campo-sobrenome-checkout.md
+│   ├── bug-012-sobrescrita-campo-sobrenome-checkout.md
+│   └── bug-013-aceitacao-quantidade-negativa-produto.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -56,6 +57,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-011] Renderização incorreta e duplicada das imagens de produtos na vitrine:** No perfil `problem_user`, todas as capas de produtos na vitrine carregam a mesma foto padrão de erro, omitindo as imagens reais do catálogo. [(Ver detalhamento do Bug)](./testes-manuais/bug-011-imagens-duplicadas-vitrine-problem-user.md)    
 
 * **[BUG-012] Apagamento automático e falha na retenção de texto no campo "Last Name" do Checkout:** No perfil `problem_user`, o campo de sobrenome apaga automaticamente qualquer caractere digitado pelo usuário, impedindo o avanço do checkout devido à validação de campo obrigatório. [(Ver detalhamento do Bug)](./testes-manuais/bug-012-sobrescrita-campo-sobrenome-checkout.md)
+
+* **[BUG-013] Permitida a adição de produtos com quantidade zero ou negativa ao carrinho:** No site Automation Exercise, o campo de quantidade da página de detalhes do produto permite valores inferiores a 1, adicionando itens com quantidades inválidas ao carrinho e afetando o cálculo do pedido. [(Ver detalhamento do Bug)](./testes-manuais/bug-013-aceitacao-quantidade-negativa-produto.md)
   
 👤 Autor
 Dr. Leandro Bagatta
