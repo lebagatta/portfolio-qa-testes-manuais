@@ -1,6 +1,8 @@
 Markdown
 # 🧪 Portfólio de Garantia de Qualidade (QA) - Testes Manuais & Bug Reports
 
+Profissional em transição para QA, com experiência prática em testes funcionais, exploratórios, validação de regras de negócio e documentação de defeitos. Este portfólio apresenta cenários reais de teste executados em aplicações web, incluindo identificação, reprodução, análise e documentação de bugs.
+
 Este repositório reúne a documentação de testes manuais, testes exploratórios e relatórios de bugs identificados em diversas aplicações web e plataformas de e-commerce.
 
 O objetivo é demonstrar a aplicação prática de análise de requisitos, mapeamento de cenários, testes cross-browser e reportes técnicos detalhados de falhas de software.
