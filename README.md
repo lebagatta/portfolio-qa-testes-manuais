@@ -31,7 +31,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-010-bloqueio-de-acesso-usuario-locked-out.md
 │   ├── bug-011-imagens-duplicadas-vitrine-problem-user.md
 │   ├── bug-012-sobrescrita-campo-sobrenome-checkout.md
-│   └── bug-013-aceitacao-quantidade-negativa-produto.md
+│   ├── bug-013-aceitacao-quantidade-negativa-produto.md
+│   └── bug-014-ausencia-validacao-regex-email-newsletter.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -61,6 +62,9 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-012] Apagamento automático e falha na retenção de texto no campo "Last Name" do Checkout:** No perfil `problem_user`, o campo de sobrenome apaga automaticamente qualquer caractere digitado pelo usuário, impedindo o avanço do checkout devido à validação de campo obrigatório. [(Ver detalhamento do Bug)](./testes-manuais/bug-012-sobrescrita-campo-sobrenome-checkout.md)
 
 * **[BUG-013] Permitida a adição de produtos com quantidade zero ou negativa ao carrinho:** No site Automation Exercise, o campo de quantidade da página de detalhes do produto permite valores inferiores a 1, adicionando itens com quantidades inválidas ao carrinho e afetando o cálculo do pedido. [(Ver detalhamento do Bug)](./testes-manuais/bug-013-aceitacao-quantidade-negativa-produto.md)
+
+* **[BUG-014] Ausência de validação de domínio completo de e-mail no formulário de Newsletter:** No rodapé do site Automation Exercise, o campo de e-mail aceita endereços sem extensão de domínio (ex: `ola@ola`) e confirma a inscrição indevidamente. [(Ver detalhamento do Bug)](./testes-manuais/bug-014-ausencia-validacao-regex-email-newsletter.md)
+
   
 👤 Autor
 Dr. Leandro Bagatta
