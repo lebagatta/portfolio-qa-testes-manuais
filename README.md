@@ -32,7 +32,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-011-imagens-duplicadas-vitrine-problem-user.md
 │   ├── bug-012-sobrescrita-campo-sobrenome-checkout.md
 │   ├── bug-013-aceitacao-quantidade-negativa-produto.md
-│   └── bug-014-ausencia-validacao-regex-email-newsletter.md
+│   ├── bug-014-ausencia-validacao-regex-email-newsletter.md
+│   └── bug-015-quebra-de-grid-espacos-em-branco-vitrine.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -65,6 +66,7 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 
 * **[BUG-014] Ausência de validação de domínio completo de e-mail no formulário de Newsletter:** No rodapé do site Automation Exercise, o campo de e-mail aceita endereços sem extensão de domínio (ex: `ola@ola`) e confirma a inscrição indevidamente. [(Ver detalhamento do Bug)](./testes-manuais/bug-014-ausencia-validacao-regex-email-newsletter.md)
 
+* **[BUG-015] Quebra de layout e exibição de espaços em branco na grade de produtos:** Na página de catálogo do Automation Exercise (`/products`), a grade de produtos apresenta falha no alinhamento CSS, deixando lacunas/espaços vazios na vitrine. [(Ver detalhamento do Bug)](./testes-manuais/bug-015-quebra-de-grid-espacos-em-branco-vitrine.md)
   
 👤 Autor
 Dr. Leandro Bagatta
