@@ -33,7 +33,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-012-sobrescrita-campo-sobrenome-checkout.md
 │   ├── bug-013-aceitacao-quantidade-negativa-produto.md
 │   ├── bug-014-ausencia-validacao-regex-email-newsletter.md
-│   └── bug-015-quebra-de-grid-espacos-em-branco-vitrine.md
+│   ├── bug-015-quebra-de-grid-espacos-em-branco-vitrine.md
+│   └── bug-016-upload-arquivo-executavel-contact-us.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -67,6 +68,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-014] Ausência de validação de domínio completo de e-mail no formulário de Newsletter:** No rodapé do site Automation Exercise, o campo de e-mail aceita endereços sem extensão de domínio (ex: `ola@ola`) e confirma a inscrição indevidamente. [(Ver detalhamento do Bug)](./testes-manuais/bug-014-ausencia-validacao-regex-email-newsletter.md)
 
 * **[BUG-015] Quebra de layout e exibição de espaços em branco na grade de produtos:** Na página de catálogo do Automation Exercise (`/products`), a grade de produtos apresenta falha no alinhamento CSS, deixando lacunas/espaços vazios na vitrine. [(Ver detalhamento do Bug)](./testes-manuais/bug-015-quebra-de-grid-espacos-em-branco-vitrine.md)
+
+* **[BUG-016] Ausência de validação de extensão e tipo de arquivo no upload do formulário Contact Us:** Na página de contato do Automation Exercise, o campo de anexo permite o envio de arquivos executáveis (`.exe`) sem restrição de formato. [(Ver detalhamento do Bug)](./testes-manuais/bug-016-upload-arquivo-executavel-contact-us.md)
   
 👤 Autor
 Dr. Leandro Bagatta
