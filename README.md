@@ -34,7 +34,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-013-aceitacao-quantidade-negativa-produto.md
 │   ├── bug-014-ausencia-validacao-regex-email-newsletter.md
 │   ├── bug-015-quebra-de-grid-espacos-em-branco-vitrine.md
-│   └── bug-016-upload-arquivo-executavel-contact-us.md
+│   ├── bug-016-upload-arquivo-executavel-contact-us.md
+│   └── bug-017-falha-no-motor-de-busca-de-produtos.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -70,6 +71,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-015] Quebra de layout e exibição de espaços em branco na grade de produtos:** Na página de catálogo do Automation Exercise (`/products`), a grade de produtos apresenta falha no alinhamento CSS, deixando lacunas/espaços vazios na vitrine. [(Ver detalhamento do Bug)](./testes-manuais/bug-015-quebra-de-grid-espacos-em-branco-vitrine.md)
 
 * **[BUG-016] Ausência de validação de extensão e tipo de arquivo no upload do formulário Contact Us:** Na página de contato do Automation Exercise, o campo de anexo permite o envio de arquivos executáveis (`.exe`) sem restrição de formato. [(Ver detalhamento do Bug)](./testes-manuais/bug-016-upload-arquivo-executavel-contact-us.md)
+
+* **[BUG-017] Falha no motor de busca e ausência de retorno para termos cadastrados no catálogo:** Na página de produtos do Automation Exercise, o campo de pesquisa não retorna resultados para buscas com termos e nomes de produtos existentes no catálogo. [(Ver detalhamento do Bug)](./testes-manuais/bug-017-falha-no-motor-de-busca-de-produtos.md)
   
 👤 Autor
 Dr. Leandro Bagatta
