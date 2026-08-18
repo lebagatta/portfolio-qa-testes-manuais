@@ -35,7 +35,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-014-ausencia-validacao-regex-email-newsletter.md
 │   ├── bug-015-quebra-de-grid-espacos-em-branco-vitrine.md
 │   ├── bug-016-upload-arquivo-executavel-contact-us.md
-│   └── bug-017-falha-no-motor-de-busca-de-produtos.md
+│   ├── bug-017-falha-no-motor-de-busca-de-produtos.md
+│   └── bug-018-ausencia-politica-senha-fraca-cadastro.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -73,6 +74,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-016] Ausência de validação de extensão e tipo de arquivo no upload do formulário Contact Us:** Na página de contato do Automation Exercise, o campo de anexo permite o envio de arquivos executáveis (`.exe`) sem restrição de formato. [(Ver detalhamento do Bug)](./testes-manuais/bug-016-upload-arquivo-executavel-contact-us.md)
 
 * **[BUG-017] Falha no motor de busca e ausência de retorno para termos cadastrados no catálogo:** Na página de produtos do Automation Exercise, o campo de pesquisa não retorna resultados para buscas com termos e nomes de produtos existentes no catálogo. [(Ver detalhamento do Bug)](./testes-manuais/bug-017-falha-no-motor-de-busca-de-produtos.md)
+
+* **[BUG-018] Ausência de validação de complexidade e aceitação de senhas fracas no cadastro:** No formulário de cadastro do Automation Exercise, a aplicação aceita o registro de senhas numéricas curtas e previsíveis (ex: `00000`) sem aplicar regras de segurança. [(Ver detalhamento do Bug)](./testes-manuais/bug-018-ausencia-politica-senha-fraca-cadastro.md)
   
 👤 Autor
 Dr. Leandro Bagatta
