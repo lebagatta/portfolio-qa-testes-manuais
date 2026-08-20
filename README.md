@@ -37,7 +37,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-016-upload-arquivo-executavel-contact-us.md
 │   ├── bug-017-falha-no-motor-de-busca-de-produtos.md
 │   ├── bug-018-ausencia-politica-senha-fraca-cadastro.md
-│   └── bug-019-aceitacao-dados-numericos-nome-usuario.md
+│   ├── bug-019-aceitacao-dados-numericos-nome-usuario.md
+│   └── bug-020-item-menu-solutions-inoperante.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
@@ -79,6 +80,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-018] Ausência de validação de complexidade e aceitação de senhas fracas no cadastro:** No formulário de cadastro do Automation Exercise, a aplicação aceita o registro de senhas numéricas curtas e previsíveis (ex: `00000`) sem aplicar regras de segurança. [(Ver detalhamento do Bug)](./testes-manuais/bug-018-ausencia-politica-senha-fraca-cadastro.md)
 
 * * **[BUG-019] Ausência de validação de tipo de dado e aceitação de caracteres numéricos no campo de nome:** No cadastro do ParaBank, a aplicação permite criar contas com nomes compostos exclusivamente por números (ex: `12345`), sem validar o tipo de entrada. [(Ver detalhamento do Bug)](./testes-manuais/bug-019-aceitacao-dados-numericos-nome-usuario.md)
+ 
+* * **[BUG-020] Item do menu superior "Solutions" inoperante e sem resposta a eventos de clique:** No cabeçalho do ParaBank, o botão "Solutions" encontra-se estático e desabilitado, não respondendo a interações de mouse nem redirecionando o usuário. [(Ver detalhamento do Bug)](./testes-manuais/bug-020-item-menu-solutions-inoperante.md)
   
 👤 Autor
 Dr. Leandro Bagatta
