@@ -39,6 +39,7 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-018-ausencia-politica-senha-fraca-cadastro.md
 │   ├── bug-019-aceitacao-dados-numericos-nome-usuario.md
 │   └── bug-020-item-menu-solutions-inoperante.md
+├── BUG_TEMPLATE.md
 └── README.md
 
 🐛 Relatórios de Bugs Registrados
