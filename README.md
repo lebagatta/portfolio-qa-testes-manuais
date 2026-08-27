@@ -38,7 +38,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-017-falha-no-motor-de-busca-de-produtos.md
 │   ├── bug-018-ausencia-politica-senha-fraca-cadastro.md
 │   ├── bug-019-aceitacao-dados-numericos-nome-usuario.md
-│   └── bug-020-item-menu-solutions-inoperante.md
+│   ├── bug-020-item-menu-solutions-inoperante.md
+│   └── bug-021-falha-renderizacao-tela-branca-text-box.md
 ├── BUG_TEMPLATE.md
 └── README.md
 
@@ -83,6 +84,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * * **[BUG-019] Ausência de validação de tipo de dado e aceitação de caracteres numéricos no campo de nome:** No cadastro do ParaBank, a aplicação permite criar contas com nomes compostos exclusivamente por números (ex: `12345`), sem validar o tipo de entrada. [(Ver detalhamento do Bug)](./testes-manuais/bug-019-aceitacao-dados-numericos-nome-usuario.md)
  
 * * **[BUG-020] Item do menu superior "Solutions" inoperante e sem resposta a eventos de clique:** No cabeçalho do ParaBank, o botão "Solutions" encontra-se estático e desabilitado, não respondendo a interações de mouse nem redirecionando o usuário. [(Ver detalhamento do Bug)](./testes-manuais/bug-020-item-menu-solutions-inoperante.md)
+ 
+* * **[BUG-021] Falha de renderização e tela em branco ao acessar o componente Text Box:** Na seção de elementos do DemoQA, o acesso à tela de Text Box resulta em uma interface em branco, exigindo atualização manual da página (F5) para exibição dos componentes. [(Ver detalhamento do Bug)](./testes-manuais/bug-021-falha-renderizacao-tela-branca-text-box.md)
   
 👤 Autor
 Dr. Leandro Bagatta
