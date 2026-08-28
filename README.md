@@ -39,7 +39,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-018-ausencia-politica-senha-fraca-cadastro.md
 │   ├── bug-019-aceitacao-dados-numericos-nome-usuario.md
 │   ├── bug-020-item-menu-solutions-inoperante.md
-│   └── bug-021-falha-renderizacao-tela-branca-text-box.md
+│   ├── bug-021-falha-renderizacao-tela-branca-text-box.md
+│   └── bug-022-radio-button-opcao-nao-desabilitada.md
 ├── BUG_TEMPLATE.md
 └── README.md
 
@@ -86,6 +87,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * * **[BUG-020] Item do menu superior "Solutions" inoperante e sem resposta a eventos de clique:** No cabeçalho do ParaBank, o botão "Solutions" encontra-se estático e desabilitado, não respondendo a interações de mouse nem redirecionando o usuário. [(Ver detalhamento do Bug)](./testes-manuais/bug-020-item-menu-solutions-inoperante.md)
  
 * * **[BUG-021] Falha de renderização e tela em branco ao acessar o componente Text Box:** Na seção de elementos do DemoQA, o acesso à tela de Text Box resulta em uma interface em branco, exigindo atualização manual da página (F5) para exibição dos componentes. [(Ver detalhamento do Bug)](./testes-manuais/bug-021-falha-renderizacao-tela-branca-text-box.md)
+
+* **[BUG-022] Componente Radio Button com opção "Não" desabilitada para seleção do usuário:** Na página de Radio Button do DemoQA, a opção de resposta "Não" encontra-se inativa com a propriedade disabled, impedindo a seleção. [(Ver detalhamento do Bug)](./testes-manuais/bug-022-radio-button-opcao-nao-desabilitada.md)
   
 👤 Autor
 Dr. Leandro Bagatta
