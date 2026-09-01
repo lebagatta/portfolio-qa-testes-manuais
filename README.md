@@ -41,7 +41,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 │   ├── bug-020-item-menu-solutions-inoperante.md
 │   ├── bug-021-falha-renderizacao-tela-branca-text-box.md
 │   ├── bug-022-radio-button-opcao-nao-desabilitada.md
-│   └── bug-023-aceitacao-dados-numericos-nome-sobrenome-webtables.md
+│   ├── bug-023-aceitacao-dados-numericos-nome-sobrenome-webtables.md
+│   └── bug-024-falha-renderizacao-visual-menu-widgets.md
 ├── BUG_TEMPLATE.md
 └── README.md
 
@@ -92,6 +93,8 @@ O objetivo é demonstrar a aplicação prática de análise de requisitos, mapea
 * **[BUG-022] Componente Radio Button com opção "Não" desabilitada para seleção do usuário:** Na página de Radio Button do DemoQA, a opção de resposta "Não" encontra-se inativa com a propriedade disabled, impedindo a seleção. [(Ver detalhamento do Bug)](./testes-manuais/bug-022-radio-button-opcao-nao-desabilitada.md)
 
 * **[BUG-023] Ausência de validação e aceitação de dados puramente numéricos nos campos Nome e Sobrenome:** Na seção Web Tables do DemoQA, o formulário de cadastro aceita valores puramente numéricos nos campos de identificação pessoal sem disparar erros de validação. [(Ver detalhamento do Bug)](./testes-manuais/bug-023-aceitacao-dados-numericos-nome-sobrenome-webtables.md)
+
+* * **[BUG-024] Falha de renderização e sobreposição visual (rabisco) no item Widgets do menu lateral:** Na navegação lateral do DemoQA, o cabeçalho da categoria Widgets apresenta falha visual de CSS, tornando o texto sobreposto e ilegível. [(Ver detalhamento do Bug)](./testes-manuais/bug-024-falha-renderizacao-visual-menu-widgets.md)
   
 👤 Autor
 Dr. Leandro Bagatta
